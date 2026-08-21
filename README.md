@@ -1,7 +1,7 @@
 # doodle-face
 
 Turn any string into a unique hand-drawn face. No dependencies, no build step, no
-image assets — the faces are generated from geometry and drawn as SVG paths.
+image assets. The faces are generated from geometry and drawn as SVG paths.
 
 [Live demo](https://hasantayyar.github.io/doodle-face/) ·
 [Releases](https://github.com/hasantayyar/doodle-face/releases) ·
@@ -151,7 +151,7 @@ inherits the surrounding text colour and can be recoloured with one CSS rule.
 stroke, in the order a person would.
 
 `inkSeed` pins the hand-drawn wobble. By default it is derived from the genome, so
-a face is entirely determined by its genes — but that means changing one gene
+a face is entirely determined by its genes, but that means changing one gene
 re-inks the whole drawing. Pin it while animating a gene or dragging a slider and
 only the feature you are changing will move.
 
@@ -161,7 +161,7 @@ only the feature you are changing will move.
 import { strokes, faceDataUri } from "doodle-face";
 
 faceDataUri("hasan");   // data: URI for an <img src> or CSS background
-strokes("hasan");       // { strokes, layout, style, viewBox } — no SVG
+strokes("hasan");       // { strokes, layout, style, viewBox }, no SVG
 ```
 
 `strokes()` returns the path data and pen settings without any SVG around them,
@@ -179,6 +179,9 @@ npm run grid          # writes out/grid.html, a contact sheet of 100 faces
 
 The contact sheet is the important one for aesthetics. Faces have to be judged in
 bulk, because any single seed can look fine by luck.
+
+How to add a feature, what CI expects, and how to review a visual change:
+[CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Publishing
 
@@ -217,8 +220,8 @@ Zero dependencies, and `src/` gzips to:
 | as written, comments and all | 49.8 KB | 16.1 KB |
 | comments and blank lines stripped | 34.7 KB | 10.5 KB |
 
-There is no minifier in this project, so no mangled-identifier figure is quoted —
-a bundler running one would land below the stripped number.
+There is no minifier in this project, so no mangled-identifier figure is quoted.
+A bundler running one would land below the stripped number.
 
 ## Layout
 
