@@ -1,0 +1,43 @@
+{
+  "name": "doodle-face",
+  "version": "0.1.0",
+  "description": "Turn any string into a unique hand-drawn doodle face. Zero dependencies, SVG output.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://hasan-tayyar-besik.github.io/doodle-face/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasan-tayyar-besik/doodle-face.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hasan-tayyar-besik/doodle-face/issues"
+  },
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "avatar",
+    "face",
+    "generator",
+    "svg",
+    "procedural",
+    "doodle",
+    "identicon"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "size": "node tools/size.js",
+    "grid": "node tools/grid.js",
+    "playground": "node tools/serve.js",
+    "site": "node tools/build-site.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
