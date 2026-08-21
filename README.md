@@ -24,6 +24,8 @@ Node.
 
 ## Demo
 
+https://github.com/user-attachments/assets/ab3d2fed-3c8c-44df-a73c-012f7e815a2a
+
 The playground is the demo: seed a face, drag genes, change expression, breed two
 faces, copy the SVG. It is the same module the library ships.
 
