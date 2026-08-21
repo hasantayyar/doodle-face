@@ -3,12 +3,12 @@
 Turn any string into a unique hand-drawn face. No dependencies, no build step, no
 image assets — the faces are generated from geometry and drawn as SVG paths.
 
-[Live demo](https://hasan-tayyar-besik.github.io/doodle-face/) ·
-[Releases](https://github.com/hasan-tayyar-besik/doodle-face/releases) ·
-[Source](https://github.com/hasan-tayyar-besik/doodle-face)
+[Live demo](https://hasantayyar.github.io/doodle-face/) ·
+[Releases](https://github.com/hasantayyar/doodle-face/releases) ·
+[Source](https://github.com/hasantayyar/doodle-face)
 
-[![CI](https://github.com/hasan-tayyar-besik/doodle-face/actions/workflows/ci.yml/badge.svg)](https://github.com/hasan-tayyar-besik/doodle-face/actions/workflows/ci.yml)
-[![Pages](https://github.com/hasan-tayyar-besik/doodle-face/actions/workflows/pages.yml/badge.svg)](https://github.com/hasan-tayyar-besik/doodle-face/actions/workflows/pages.yml)
+[![CI](https://github.com/hasantayyar/doodle-face/actions/workflows/ci.yml/badge.svg)](https://github.com/hasan-tayyar-besik/doodle-face/actions/workflows/ci.yml)
+[![Pages](https://github.com/hasantayyar/doodle-face/actions/workflows/pages.yml/badge.svg)](https://github.com/hasan-tayyar-besik/doodle-face/actions/workflows/pages.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-olive.svg)](LICENSE)
 
 ```js
@@ -27,7 +27,7 @@ Node.
 The playground is the demo: seed a face, drag genes, change expression, breed two
 faces, copy the SVG. It is the same module the library ships.
 
-- Public site: https://hasan-tayyar-besik.github.io/doodle-face/
+- Public site: https://hasantayyar.github.io/doodle-face/
 - Locally: `npm run playground` then open http://localhost:5173
 
 The URL hash is the genome code, so any face you land on is a shareable link.
@@ -45,10 +45,10 @@ There is no npm registry package yet.
 
 ```bash
 # from a release tag
-npm install github:hasan-tayyar-besik/doodle-face#v0.1.0
+npm install github:hasantayyar/doodle-face#v0.1.0
 
 # or the packed tarball from that release
-npm install https://github.com/hasan-tayyar-besik/doodle-face/releases/download/v0.1.0/doodle-face-0.1.0.tgz
+npm install https://github.com/hasantayyar/doodle-face/releases/download/v0.1.0/doodle-face-0.1.0.tgz
 ```
 
 Or copy `src/` into your project. It is plain ES modules with no imports outside
@@ -192,7 +192,7 @@ This repository does two things from `main`:
 ### First-time Pages setup
 
 After the first push, in the GitHub repo: **Settings → Pages → Source → GitHub
-Actions**. The next `main` push deploys https://hasan-tayyar-besik.github.io/doodle-face/.
+Actions**. The next `main` push deploys https://hasantayyar.github.io/doodle-face/.
 
 ### Cutting a library release
 
