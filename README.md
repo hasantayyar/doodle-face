@@ -42,15 +42,14 @@ Two faces breed into a row of children. Click a child to load it.
 
 ## Install
 
-The library is published as GitHub Releases (an npm tarball plus a zip of `src/`).
-There is no npm registry package yet.
+```bash
+npm install doodle-face
+```
+
+GitHub Releases also ship an npm tarball plus a zip of `src/`:
 
 ```bash
-# from a release tag
-npm install github:hasantayyar/doodle-face#v0.1.0
-
-# or the packed tarball from that release
-npm install https://github.com/hasantayyar/doodle-face/releases/download/v0.1.0/doodle-face-0.1.0.tgz
+npm install github:hasantayyar/doodle-face#v0.1.2
 ```
 
 Or copy `src/` into your project. It is plain ES modules with no imports outside
@@ -192,7 +191,7 @@ This repository does two things from `main`:
 | What | How |
 | --- | --- |
 | Demo site | GitHub Pages, from the `Pages` workflow on every push to `main` |
-| Library | GitHub Releases, from the `Release` workflow on a version tag |
+| Library | npm and GitHub Releases, from the `Release` workflow on a version tag |
 
 ### First-time Pages setup
 
@@ -205,13 +204,14 @@ Actions**. The next `main` push deploys https://hasantayyar.github.io/doodle-fac
 2. Commit, then tag the same number:
 
 ```bash
-git tag v0.1.0
+git tag v0.1.2
 git push origin main --tags
 ```
 
-The tag must match `package.json` (`v0.1.0` for `"version": "0.1.0"`). The workflow
-runs the tests, packs `npm pack`, zips `src/`, and publishes a GitHub Release with
-those two files.
+The tag must match `package.json` (`v0.1.2` for `"version": "0.1.2"`). The workflow
+runs the tests, publishes to npm, packs `npm pack`, zips `src/`, and creates a
+GitHub Release with those two files. Previously unpublished versions (`0.1.0`,
+`0.1.1`) cannot be reused.
 
 ## Size
 

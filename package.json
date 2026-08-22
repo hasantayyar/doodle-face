@@ -1,6 +1,6 @@
 {
   "name": "doodle-face",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Turn any string into a unique hand-drawn doodle face. Zero dependencies, SVG output.",
   "type": "module",
   "license": "MIT",
