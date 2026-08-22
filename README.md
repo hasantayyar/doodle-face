@@ -7,8 +7,8 @@ image assets. The faces are generated from geometry and drawn as SVG paths.
 [Releases](https://github.com/hasantayyar/doodle-face/releases) ·
 [Source](https://github.com/hasantayyar/doodle-face)
 
-[![CI](https://github.com/hasantayyar/doodle-face/actions/workflows/ci.yml/badge.svg)](https://github.com/hasan-tayyar-besik/doodle-face/actions/workflows/ci.yml)
-[![Pages](https://github.com/hasantayyar/doodle-face/actions/workflows/pages.yml/badge.svg)](https://github.com/hasan-tayyar-besik/doodle-face/actions/workflows/pages.yml)
+[![CI](https://github.com/hasantayyar/doodle-face/actions/workflows/ci.yml/badge.svg)](https://github.com/hasantayyar/doodle-face/actions/workflows/ci.yml)
+[![Pages](https://github.com/hasantayyar/doodle-face/actions/workflows/pages.yml/badge.svg)](https://github.com/hasantayyar/doodle-face/actions/workflows/pages.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-olive.svg)](LICENSE)
 
 ```js

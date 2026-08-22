@@ -4,13 +4,13 @@
   "description": "Turn any string into a unique hand-drawn doodle face. Zero dependencies, SVG output.",
   "type": "module",
   "license": "MIT",
-  "homepage": "https://hasan-tayyar-besik.github.io/doodle-face/",
+  "homepage": "https://hasantayyar.github.io/doodle-face/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hasan-tayyar-besik/doodle-face.git"
+    "url": "git+https://github.com/hasantayyar/doodle-face.git"
   },
   "bugs": {
-    "url": "https://github.com/hasan-tayyar-besik/doodle-face/issues"
+    "url": "https://github.com/hasantayyar/doodle-face/issues"
   },
   "main": "./src/index.js",
   "exports": {
