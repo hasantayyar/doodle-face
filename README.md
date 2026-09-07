@@ -11,7 +11,7 @@ image assets. The faces are generated from geometry and drawn as SVG paths.
 [![CI](https://github.com/hasantayyar/doodle-face/actions/workflows/ci.yml/badge.svg)](https://github.com/hasantayyar/doodle-face/actions/workflows/ci.yml)
 [![Pages](https://github.com/hasantayyar/doodle-face/actions/workflows/pages.yml/badge.svg)](https://github.com/hasantayyar/doodle-face/actions/workflows/pages.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-olive.svg)](LICENSE)
-![NPM Version](https://img.shields.io/npm/v/doodle-face)
+[![NPM Version](https://img.shields.io/npm/v/doodle-face)](https://www.npmjs.com/package/doodle-face)
 
 ```js
 import { face } from "doodle-face";
