@@ -3,6 +3,9 @@
 Turn any string into a unique hand-drawn face. No dependencies, no build step, no
 image assets. The faces are generated from geometry and drawn as SVG paths.
 
+> [!WARNING]  
+> Entirely vibe coded but reviewed. There are alternative and even better alternatives. This one focused on being light and re-usable.
+
 [Live demo](https://hasantayyar.github.io/doodle-face/) ·
 [Releases](https://github.com/hasantayyar/doodle-face/releases) ·
 [Source](https://github.com/hasantayyar/doodle-face)
