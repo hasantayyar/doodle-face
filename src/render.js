@@ -95,8 +95,8 @@ export function renderSvg(genome, options = {}) {
     'fill="none"',
     'stroke="currentColor"',
     `stroke-width="${num(style.strokeWidth)}"`,
-    `stroke-linecap="${style.linecap}"`,
-    `stroke-linejoin="${style.linejoin}"`,
+    `stroke-linecap="${escapeXml(style.linecap)}"`,
+    `stroke-linejoin="${escapeXml(style.linejoin)}"`,
     title ? 'role="img"' : 'aria-hidden="true"'
   );
 

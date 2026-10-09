@@ -15,6 +15,9 @@ export const doodle = {
 
 export const styles = { doodle };
 
+const LINECAP_VALUES = new Set(["butt", "round", "square"]);
+const LINEJOIN_VALUES = new Set(["miter", "round", "bevel", "arcs", "miter-clip"]);
+
 export function resolveStyle(style) {
   if (!style) return doodle;
   if (typeof style === "string") {
@@ -24,5 +27,8 @@ export function resolveStyle(style) {
     }
     return found;
   }
-  return { ...doodle, ...style };
+  const merged = { ...doodle, ...style };
+  merged.linecap = LINECAP_VALUES.has(merged.linecap) ? merged.linecap : doodle.linecap;
+  merged.linejoin = LINEJOIN_VALUES.has(merged.linejoin) ? merged.linejoin : doodle.linejoin;
+  return merged;
 }
